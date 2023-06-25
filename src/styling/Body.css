@@ -1,0 +1,85 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 36px;
+    background-color: white;
+}  
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+}
+
+.input input{
+    width: 230px;
+    height: 35px;
+    text-indent: 5px;
+}
+
+button{
+    width: 477px;
+    height: 40px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    font-size: 16px;
+    letter-spacing: -0.075em;
+    line-height: 19px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.body img{
+    max-width: 478px;
+    border-radius: 5px;
+}
+
+.meme{
+    position: relative;
+}
+
+.toptxt{
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    line-height: 50px;
+    text-shadow:
+            4px 4px 0 #000,
+            -4px -4px 0 #000,
+            4px -4px 0 #000,
+            -4px 4px 0 #000,
+            0px 4px 0 #000,
+            4px 0px 0 #000,
+            0px -4px 0 #000,
+            -4px 0px 0 #000;
+}
+
+.bottxt {
+    position: absolute;
+    color: white;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    line-height: 50px;
+    text-shadow: 
+        4px 4px 0 #000,
+        -4px -4px 0 #000,
+        4px -4px 0 #000,
+        -4px 4px 0 #000,
+        0px 4px 0 #000,
+        4px 0px 0 #000,
+        0px -4px 0 #000,
+        -4px 0px 0 #000;
+}

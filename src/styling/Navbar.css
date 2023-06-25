@@ -1,0 +1,24 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    padding: 20px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.title img{
+    width: 31px;
+}
+
+.title p{
+    font-weight: 600;
+    font-size: 20.75px;
+}
